@@ -1,0 +1,9 @@
+# manual steps
+truffle compile
+truffle migrate
+then 
+copy GrainSafety.json file in build/contracts to src/contracts folder
+copy the contract address and the accoubt address from the migrate command cli and paste it in backend/graintracking.js
+
+#ganache-cli --port 7545 in new terminal
+then src/frontend   npm start
